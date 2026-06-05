@@ -1,0 +1,6 @@
+﻿ORDINATEUR|ordinateur,pc,computer|Un ordinateur est une machine electronique qui traite des informations.
+PROCESSEUR|processeur,cpu|Le processeur est le cerveau de l'ordinateur.
+RAM|ram,memoire vive|La RAM est la memoire de travail. 8GB minimum, 16GB recommande.
+DEVOPS|devops|DevOps fusionne developpement et operations. Outils: Docker, Kubernetes.
+DOCKER|docker|Docker est une plateforme de conteneurisation.
+PYTHON|python|Python est un langage de programmation simple.

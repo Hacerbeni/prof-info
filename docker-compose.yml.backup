@@ -1,0 +1,19 @@
+services:
+  chatbot-rag:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: chatbot-rag-educatif
+    ports:
+      - "8000:8000"
+    environment:
+      - PYTHONPATH=/app
+      - USE_LOCAL_MODEL=true
+      - DEVICE=cpu
+    volumes:
+      - huggingface_cache:/root/.cache/huggingface
+      - ./data:/app/data
+    restart: unless-stopped
+
+volumes:
+  huggingface_cache:
